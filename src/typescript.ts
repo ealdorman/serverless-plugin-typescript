@@ -114,7 +114,7 @@ export function getTypescriptConfig(
   cwd: string,
   logger?: { log: (str: string) => void }
 ): ts.CompilerOptions {
-  const configFilePath = path.join(cwd, 'tsconfig.json')
+  const configFilePath = path.join(cwd, 'tsconfig.serverless.json')
 
   if (fs.existsSync(configFilePath)) {
 

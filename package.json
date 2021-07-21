@@ -1,6 +1,6 @@
 {
-  "name": "serverless-plugin-typescript",
-  "version": "0.0.0-semantic-release",
+  "name": "@ealdorman/serverless-plugin-typescript",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/src/index.js",
   "files": [
@@ -15,10 +15,6 @@
     "pretest": "npm run lint",
     "test": "jest",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prisma/serverless-plugin-typescript.git"
   },
   "keywords": [
     "serverless",
